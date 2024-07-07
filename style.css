@@ -1,30 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.header{
+.header {
     text-align: center;
     text-transform: uppercase;
     line-height: 1.5rem;
     margin: 40px auto;
 }
 
-.head1{
+.head1 {
     font-weight: 300;
 }
 
-.head2{
+.head2 {
     font-size: 2.6rem;
 }
 
-.head3{
+.head3 {
     font-weight: 500;
 }
 
-.list{
+.list {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -35,18 +35,25 @@
     font-weight: 600;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000000;
 }
 
-.images{
+.images {
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-img{
+img {
     width: 290px;
     height: 290px;
+}
+
+.text {
+    text-align: center;
+    width: 600px;
+    margin: 20px auto;
+    font-weight: 600;
 }
