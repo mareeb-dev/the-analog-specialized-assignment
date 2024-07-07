@@ -39,3 +39,14 @@ a{
     text-decoration: none;
     color: #000000;
 }
+
+.images{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+img{
+    width: 290px;
+    height: 290px;
+}
